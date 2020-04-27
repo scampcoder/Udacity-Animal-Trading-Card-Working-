@@ -1,0 +1,38 @@
+body {
+  width: 400px;
+  border: 1px solid grey;
+  box-shadow: 10px 10px 10px grey;
+}
+
+h3 {
+  border: 1px solid grey;
+  display: inline-block;
+  margin: 10px;
+}
+
+img {
+  width: 300px;
+  border: 1px solid grey;
+}
+.img {
+  text-align: center;
+}
+
+/*the below class is a result of the rule to contain all design techniques in the CSS box. Otherwise, I thought it'd be easier to use the "<em>" tag.*/
+.italics{
+  font-style: italic;
+}
+
+.description {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+  font-weight: bold;
+}
